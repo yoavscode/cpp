@@ -301,7 +301,7 @@ delete[] pointer2;
 
 C++ arrays can be declared as: 
 ```cpp
-variableType arrayName [ ] = {variables to be stored in the array};
+variableType arrayName[] = {variables to be stored in the array};
 
 // or:
 variableType arrayName[array size]
@@ -309,7 +309,7 @@ variableType arrayName[array size]
 ```
 Multidimensional arrays in C++ are initialized with the format:
 ```cpp
-variableType arrayName size of dim.1][size of dim. 2] ...[size of dim. n] = {variables to be stored in the array}; 
+variableType arrayName[size of dim.1][size of dim. 2] ...[size of dim. n] = {variables to be stored in the array}; 
 
 // or:
 variableType arrayName[size of dim.1][size of dim. 2] ...[size of dim. n];
