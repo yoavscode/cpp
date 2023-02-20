@@ -288,7 +288,7 @@ int len;
 cin >> len;
 //Below variables are allocated memory dynamically.
 int *pointer1 = new int;
-int *pointer2; = new int[len];
+int *pointer2 = new int[len];
 
 // Dynamically allocated memory is deallocated.
 delete pointer1;
