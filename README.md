@@ -319,7 +319,7 @@ variableType arrayName[size of dim.1][size of dim. 2] ...[size of dim. n];
 ## Functions
 ----
 All functions must have:
-* Decleration: the statement of how the fucntion is to be called, written bedore main().
+* Decleration: the statement of how the fucntion is to be called, written before main().
 * Definition: the statements of the task the function performs when called. 
 
 ```cpp
